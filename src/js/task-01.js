@@ -1,5 +1,5 @@
 const allCategories = document.querySelectorAll(".item");
-console.log("В списке", allCategoriesEl.length, "категорий"); // В списке 3 категорий
+console.log("В списке", allCategories.length, "категорий"); // В списке 3 категорий
 
 allCategories.forEach((num) => {
   console.log("Категория:", num.firstElementChild.textContent);
