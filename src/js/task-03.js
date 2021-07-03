@@ -30,9 +30,3 @@ function creatImages(images) {
     })
     .join("");
 }
-
-// =============== metod 2 ===================
-// for (let el of images)
-//   document
-//     .querySelector('#gallery')
-//     .insertAdjacentHTML('beforeEnd', `<li><img src="${el.url}" alt="${el.alt}"></li>`);
